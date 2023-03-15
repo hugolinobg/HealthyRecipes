@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-url: url(./image/image.png);
+  --ff-first: "Spectral", serif;
+  --ff-second: "Beth Ellen", cursive;
+  --text-color: #ebf1fb;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--ff-first);
+  background: var(--bg-url) no-repeat;
+  background-color: #000;
+  color: var(--text-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+
+  padding-top: 275px;
+}
+
+.headline h1 {
+  font-family: var(--ff-second);
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 12rem;
+
+  text-align: center;
+
+  margin-bottom: 4px;
+}
+
+.headline h1 span {
+  color: #5eead4;
+}
+
+.headline p {
+  font-family: var(--ff-first);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.links a {
+  font-family: var(--ff-first);
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+
+  padding: 1.6rem 3.2rem;
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: var(--text-color);
+}
+
+.links button {
+  cursor: pointer;
+  font-family: var(--ff-first);
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+
+  text-align: center;
+
+  color: #0b0c0e;
+
+  padding: 1.6rem 3.2rem;
+
+  background: #5eead4;
+  border-radius: 8px;
+  border: 0;
+}
+
+.links button:hover {
+  background: #2e9786;
+}
