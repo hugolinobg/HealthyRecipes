@@ -15,7 +15,7 @@
 body {
   height: 100vh;
   font-family: var(--ff-first);
-  background: var(--bg-url) no-repeat;
+  background: var(--bg-url) no-repeat center/cover;
   background-color: #000;
   color: var(--text-color);
 }
@@ -27,7 +27,7 @@ main {
   justify-content: center;
   gap: 72px;
 
-  padding-top: 275px;
+  padding-top: 210px;
 }
 
 .headline h1 {
